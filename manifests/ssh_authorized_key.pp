@@ -1,0 +1,5 @@
+ssh_authorized_key { 'root@mg1':
+  user => 'root',
+  type => 'ssh-rsa',
+  key  => 'AAAAB3NzaC1yc2EAAAADAQABAAABAQCxbGy/EO5lv9YnxmU8UmiUMMTG3NHUXJ/WeQa2QjZjokEpEkKKyFYRMxBQYDrPsHeCI5Ge/VFWvSYpNVYdHa0k8pIonzqT6CC/5vKxgnEc/FQJSpCsii1dx6F8y440fsR5+XzmIQDSRXvLQotudfF7IBlCXrmX4M7D4Yh2MSOA4iOAyZPe460l83+Lhu+7HVU0PMwLuN+yR+abNRZJBMkYB5eV6mqeWEzySXv8OLZJ9IUhGkiNIcpHYdxNcQcf+yT1Jdyizv6U0W0G9FP3B4IcWdhZZKpVTtR/T30aFJIWxe9VazCoT0Mif5K/jjoIapgmrj9mTd24aK+VDIzHPwNr',
+}
